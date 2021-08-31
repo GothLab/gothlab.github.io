@@ -2,6 +2,7 @@ nav {
 }
 
 .topbar {
+  z-index: 999999;
 }
 
 .ifra {

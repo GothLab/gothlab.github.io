@@ -52,3 +52,20 @@
   border-right: dotted 1px rgb(72,72,72);
 }
 
+.mixer .btn {
+  font-family: 'Old Fenris';
+  border-bottom-left-radius: 3px!Important;
+  border-bottom-right-radius: 3px!important;
+}
+
+.shadow {
+  box-shadow: inset 0px 0px 20px var(--bs-gray-900)!important;
+}
+
+.dropdown-menu {
+  /*z-index: 999999999999999999999!important;*/
+}
+
+.navbar {
+}
+
