@@ -40,37 +40,50 @@
   padding-bottom: 30px;
 }
 
-.btn:hover {
-  color: white!important;
-  background: var(--bs-gray-dark)!important;
+.sort .list-group-item:hover {
+  background: #1d1d1f;
+  color: #b4841e;
 }
 
-#navcol-2 .nav-link {
-  font-size: 0.8em!important;
-  padding-left: 12px;
-  padding-right: 12px;
-  border-right: dotted 1px rgb(72,72,72);
+#sidebar {
+  min-width: 400px;
 }
 
-.mixer .btn {
-  font-family: 'Brutal Type';
-  border-bottom-left-radius: 3px!Important;
-  border-bottom-right-radius: 3px!important;
+#navcol-1 {
+  min-width: 500px!important;
 }
 
-.shadow {
-  box-shadow: inset 0px 0px 20px var(--bs-gray-900)!important;
+.navbar .btn {
+  margin-top: 4px;
 }
 
-.dropdown-menu {
-  /*z-index: 999999999999999999999!important;*/
+.accordion-button:focus {
+  z-index: 3;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
 }
 
-.navbar {
+.tab-content {
+  transition: all 1s ease-in;
 }
 
-.tools .mix {
-  width: 100%;
-  display: table-row;
+.tags {
+  margin-top: 16px;
+}
+
+.accordion-item {
+  filter: saturate(0.3);
+}
+
+.mixitup-control-active {
+  background: #393939;
+  border-radius: 15px;
+}
+
+#sidebar {
+}
+
+.ava {
 }
 
