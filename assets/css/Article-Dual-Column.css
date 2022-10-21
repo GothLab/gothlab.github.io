@@ -142,3 +142,7 @@
   font-family: 'Brutal Type';
 }
 
+.placeholder {
+  border-radius: 3px;
+}
+
