@@ -119,3 +119,22 @@
   font-family: 'Brutal Type';
 }
 
+.nav-tabs .nav-link {
+  border-radius: 0!important;
+  border: none!important;
+}
+
+.modal {
+  background: #242424;
+}
+
+.modal {
+  /*background: #242424!important;*/
+  /*--bs-modal-color: #242424;*/
+  --modal-content-bg: #242424;
+  /*--bs-bg-modal: #242424!important;*/
+}
+
+.modal-header {
+}
+

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/Old%20Fenris.css">
     <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/mixitup.css">
     <link rel="stylesheet" href="assets/css/scrollbar.css">
@@ -22,25 +22,473 @@
 </head>
 
 <body style="background: #121212;color: var(--bs-gray-600);">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top topbar" style="background: #121212;font-family: 'Old Fenris';font-size: 18px;">
+        <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="font-family: 'Brutal Type';">
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item" style="padding-left: 6px;font-size: 0.9em;"><a class="nav-link" href="#" style="padding-right: 12px;color: rgb(147,147,147);font-size: 16px;">Downloads</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.donationalerts.com/r/gothlab" style="color: rgb(147,147,147);font-size: 16px;">Donate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: rgb(147,147,147);font-size: 16px;">Free VFX</a></li>
+                    <li class="nav-item" style="padding-left: 6px;color: var(--bs-gray);font-size: 0.9em;"></li>
+                    <li class="nav-item" style="padding-left: 6px;color: var(--bs-gray);font-size: 0.9em;"></li>
+                    <li class="nav-item" style="padding-left: 6px;color: var(--bs-gray);font-size: 0.9em;"><a class="nav-link" href="https://t.me/gothlab" style="text-decoration: underline;padding-right: 12px;color: var(--bs-blue);font-size: 0.9em;">Telegram</a></li>
+                    <li class="nav-item" style="padding-left: 6px;color: var(--bs-gray);font-size: 0.9em;"><a class="nav-link" href="https://www.youtube.com/c/LearnCalligraphycom" style="text-decoration: underline;padding-right: 12px;color: var(--bs-red);font-size: 0.9em;">YouTube</a></li>
+                </ul><a href="https://gothlab.github.io/cv.html" style="margin-left: 13px;font-size: 15px;color: rgb(132,132,132);" target="_blank">CV</a>
+            </div>
+            <div style="width: 111px;height: 36px;background: url(&quot;assets/img/logo.png&quot;) center / contain no-repeat;margin-left: 10px;"></div>
+        </div>
+    </nav>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика и Видео материалы</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="" style="padding-bottom: 0px;">
+                                <div class="col item" style="padding-bottom: 10px;"><a href="assets/img/Portfolio/1%20Video/Banner%20Plants%20HD.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/1%20Video/Banner%20Plants%20HD.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item" style="padding-bottom: 10px;"><a href="assets/img/Portfolio/1%20Video/Funky%20HD.jpg">
+                                        <div style="background: url(&quot;assets/img/Portfolio/1%20Video/Funky%20HD.jpg&quot;), var(--bs-indigo);height: 213px;background-size: cover, auto;"></div>
+                                    </a></div>
+                                <div class="col item" style="padding-bottom: 10px;"><a href="assets/img/Portfolio/1%20Video/Neon%20Drive%20HD%205k.jpg">
+                                        <div style="background: url(&quot;assets/img/Portfolio/1%20Video/Neon%20Drive%20HD%205k.jpg&quot;), var(--bs-indigo);height: 213px;background-size: cover, auto;"></div>
+                                    </a></div>
+                            </div>
+                            <div class="ratio ratio-16x9"><iframe src="https://youtu.be/embed/undefined"></iframe></div>
+                            <div class="ratio ratio-16x9"><iframe src="https://youtu.be/embed/undefined"></iframe></div>
+                            <div class="ratio ratio-16x9"><iframe src="https://youtu.be/embed/undefined"></iframe></div>
+                            <div class="ratio ratio-16x9"><iframe src="https://youtu.be/embed/undefined"></iframe></div>
+                            <div class="ratio ratio-16x9"><iframe src="https://youtu.be/embed/undefined"></iframe></div>
+                            <div class="ratio ratio-16x9"><iframe src="https://youtu.be/embed/undefined"></iframe></div>
+                            <div class="ratio ratio-16x9"><iframe src="https://youtu.be/embed/undefined"></iframe></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/1.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/1.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/2.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/2.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/3.jpeg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/3.jpeg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/4.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/4.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/5.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/5.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/6.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/6.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/1.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/18.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/12.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/12.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/16.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/16.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/17.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/17.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/15.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/15.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/3%20Corporate/7.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/3%20Corporate/7.jpg&quot;) center / contain no-repeat, var(--bs-modal-bg);height: 213px;"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-9">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/1.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/1.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/10.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/10.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/11.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/11.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/5.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/5.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/7.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/7.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/6.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/6.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/3.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/3.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/9.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/9.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/9%20Digital%20Products/2.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/2.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-8">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/12.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/12.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/13.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/13.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/18.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/18.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/2.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/2.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/7.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/7.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/8.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/8.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/9.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/9.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/1.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/1.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/8%20Decorative/11.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/8%20Decorative/11.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-7">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/9.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/9.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/6.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/6.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/4.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/4.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/18.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/18.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/17.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/17.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/11.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/11.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/21.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/21.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/16.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/16.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/7%20Art/10.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/7%20Art/10.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-6">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                                <div class="col item"><a href="assets/img/Portfolio/6%20Lettering/1.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/6%20Lettering/1.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/6%20Lettering/10.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/6%20Lettering/10.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/6%20Lettering/11.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/6%20Lettering/11.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/3.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/3.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/8.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/8.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/9.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/9.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/5.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/5.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/6.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/6.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/6%20Lettering/2.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/6%20Lettering/2.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/6%20Lettering/6.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/6%20Lettering/6.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/6%20Lettering/7.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/6%20Lettering/7.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/6%20Lettering/9.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/6%20Lettering/9.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-5">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/1.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/10.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/11.jpg&quot;) top / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/12.jpg&quot;) top / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/2.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/13.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/14.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/4.jpg&quot;) top / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/3.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/6.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/8.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/5%20Promo/5.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-4">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                                <div class="col item"><a href="assets/img/Portfolio/4%20WEB/1.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/4%20WEB/1.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/4%20WEB/2.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/4%20WEB/2.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/4%20WEB/3.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/4%20WEB/3.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/4%20WEB/6.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/4%20WEB/6.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/4%20WEB/4.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/4%20WEB/4.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/4%20WEB/5.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/4%20WEB/5.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-3">
+        <div class="modal-dialog modal-fullscreen" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" style="/*--bs-modal-color: black!important;*/">3D графика</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>The content of your modal.</p>
+                    <section class="photo-gallery py-4 py-xl-5">
+                        <div class="container">
+                            <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-3 photos" data-bss-baguettebox="">
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/19.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/19.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/20.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/20.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/16.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/16.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/13.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/13.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/21.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/21.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/22.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/22.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/14.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/14.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/17.png" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/17.png&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/1.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/1.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/4.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/4.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/3.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/3.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/25.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/25.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/26.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/26.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/29.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/29.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                                <div class="col item"><a href="assets/img/Portfolio/99%20Brand%20ID/6.jpg" data-caption="hello2">
+                                        <div style="background: url(&quot;assets/img/Portfolio/99%20Brand%20ID/6.jpg&quot;) center / cover, var(--bs-indigo);height: 213px;"></div>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="article-dual-column" style="background: #121212;color: var(--bs-gray-500);">
         <div class="container" id="xyz" style="background: #212121;">
-            <div class="row">
+            <div class="row" style="background: url(&quot;assets/img/Portfolio/9%20Digital%20Products/9.png&quot;) left;filter: saturate(35%);">
                 <div class="col-md-10 offset-md-1" style="text-align: left;">
-                    <div class="intro" style="text-align: left;">
-                        <h1 class="text-center" style="text-align: left;">Konstantin Kerivnik</h1>
-                        <p class="text-center"><span class="by" style="font-family: 'Brutal Type';">Lettering artist, Graphic Designer</span> <a href="#" style="font-family: 'Brutal Type';">Gothic / Cyberpunk</a><span class="date" style="font-family: 'Brutal Type';">2006 - current</span></p>
+                    <div class="intro" style="text-align: right;user-select: none;">
+                        <h1 class="text-center" style="text-align: right!important;">Konstantin Kerivnik</h1>
+                        <p class="text-center" style="text-align: right!important;"><span class="by" style="font-family: 'Brutal Type';">Lettering Artist, Media Designer</span> <span class="date" style="font-family: 'Brutal Type';">Since 2006</span></p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-10 col-lg-3 offset-md-1" style="width: 222px;">
-                    <div class="toc"><img class="img-fluid" src="assets/img/59440025.jpg" style="width: 181px;border-radius: 5px;background: url(&quot;assets/img/151405654_3805769619515228_3213534447393785444_n%20(17).jpg&quot;) top / cover;">
+                    <div class="toc" style="padding-top: 32px;"><img class="img-fluid" src="assets/img/59440025.jpg" style="width: 181px;border-radius: 5px;background: url(&quot;assets/img/151405654_3805769619515228_3213534447393785444_n%20(17).jpg&quot;) top / cover;">
                         <p></p>
                         <ul style="text-decoration: none!important;">
                             <li><a href="#" style="font-family: 'Brutal Type';">RU, Saint-Petersburg</a> </li>
                             <li style="font-family: 'Brutal Type';"><a href="#" style="font-family: 'Brutal Type';">English fluent</a></li>
                             <li style="font-family: 'Brutal Type';"><a href="#" style="font-family: 'Brutal Type';">1992</a> </li>
-                            <li style="font-family: 'Brutal Type';"><a href="#" style="font-family: 'Brutal Type';">Freelance</a> </li>
+                            <li style="font-family: 'Brutal Type';"><a href="#" style="font-family: 'Brutal Type';">Фриланс</a> </li>
                             <li style="font-family: 'Brutal Type';"><a href="#" style="font-family: 'Brutal Type';">omlet32@ya.ru</a> </li>
                             <li style="font-family: 'Brutal Type';"><a href="#" style="font-family: 'Brutal Type';">Telegram: @kerivnik</a> </li>
                             <li style="font-family: 'Brutal Type';"><a href="https://www.youtube.com/c/LearnCalligraphycom/videos" style="font-family: 'Brutal Type';color: var(--bs-red);">YouTube</a> </li>
@@ -49,30 +497,169 @@
                 </div>
                 <div class="col-md-10 col-lg-7 offset-md-1 offset-lg-0">
                     <div class="text">
-                        <p><strong>Graphic designer</strong> and Lettering artist from Russia, Saint-Peterburg.<br><br>Created Graphic Resources that were downloaded over 1M times.&nbsp;<br>Participated in developing Spb<strong> Stickers &amp; Posters </strong>movement since 2009. Helped create modern Spb underground music scene from 2012-2016. Founded calligraphy &amp; lettering educational YouTube Channel:<strong> GothLab.</strong> that currently have&nbsp;<strong>882.000 </strong>views, 17,7k followers, while<strong>&nbsp;Udemy </strong>courses have over 11.000 students.<br><br>Currently developing new Graphical Tools and creating Cyberpunk / Gothic artworks.</p>
-                        <h2 style="font-family: 'Brutal Type';color: var(--bs-blue);text-decoration:  underline;"><a href="https://gothlab.artstation.com/">Portfolio</a></h2>
-                        <h2 style="font-family: 'Brutal Type';">Education</h2>
-                        <p><strong>2015&nbsp;</strong>'Ot aza do ijhizi' English coursive extensive course&nbsp;<br><strong>2014</strong>&nbsp;Pokras Lamaps brushpen mastercalss<br><strong>2013&nbsp;</strong>Pokras Lampas Gothic calligraphy and Lettering of XXI Century masterclass<br><strong>2000-2009</strong>&nbsp;Saint Petersburg City Palace of Youth Creativity, Children Design Center<br></p>
-                        <h2 style="font-family: 'Brutal Type';">Clients</h2>
-                        <p><strong>Enterataimnet industry:</strong><br>Ionoteka / Ionosfear / Общество пропавших<br>Poison Bar<br>Three Happy Sisters (SKAZKA Party)&nbsp;<br>Yuzhin X (Vibe Room)<br>Agressive parties / Under.party / Light Party / Спальные районы / SHE Party&nbsp; / DM Club<br>Barbot&nbsp;<br>SPB ETU Music Festival / BOMBA rehearsal space<br>da:da: Underground<br>Agressive.ru&nbsp;<br><br><strong>Muscians:</strong><br><strong>Agressive MAG:</strong>&nbsp;Nike ACG / Гарри Топор / Beat-Maker-Beat&nbsp;<br>Электрофорез&nbsp;<br>Shortparis&nbsp;<br>Спасибо&nbsp;<br>Игры&nbsp;<br>Арсений Креститель (Sonic Death)&nbsp;<br>Электроребята<br>More Znaet / Масло / Dj PonomarenKO / Bullet Dodger / Zodchi / The Stunts / The Fail / Norkus / Velvet Breasts /&nbsp;Robot Monsta /&nbsp;the Flash Fever<br><br><strong>Corporate:</strong><br>Saint-Petersburg international model United Nations https://spimun.com/<br>TOPHOUSE https://www.tophouse.ru/<br>Konvera<br>Classic Stroy Design&nbsp;<br>Bulgarian House<br>Zona Space (Зона действия)<br></p>
-                        <h2 style="font-family: 'Brutal Type';">Exibitions &amp; Participation:</h2>
-                        <p><strong>2018</strong>&nbsp; Sticker Festival participant<br><strong>2009</strong>&nbsp;Contest winner, "Best Vectorisation", IMOP Contest<br><strong>2009&nbsp;</strong>Contest winner, "Best Graphic Composition", IMOP Contest<br><strong>2009&nbsp;</strong>Children Design Center - Compoisition of print media, Constructive drawing, Expressional elemnts of pictorial art. Participant diploma.<br><strong>2008</strong>&nbsp;Children Design Center - "New Year Giftcard", best project diploma<br><strong>2008&nbsp;</strong>Children Design Center - "Star of palace" award laureate.<br><strong>2007 </strong>Children Design Center - "From idea to realisation"<br><strong>2007 </strong>Children Design Center -&nbsp;Certificate of contest participant - "Me and my palace".<br><strong>2006&nbsp;</strong>Children Design Center - City contest, "New Year", Graphics nomination. Collectiove work participant. "Giftable Bookmarks"<br><strong>2006</strong>&nbsp;Children Design Center - participant diploma "Japan motives", Saint Petersburg Jeweller exibition<br><strong>2006</strong>&nbsp;Children Design Center - Best work diploma "Dimentional graphics"<br><strong>2005</strong>&nbsp;Children Design Center - Spanish Embassy exibition "La Torre", participant diploma<br><strong>2005</strong>&nbsp;Children Design Center - First grade, Participant diploma "Room of my dreams" contest, "Interior exposition" nomination<br><strong>2004</strong> Children Design Center - "Paper Plastic" nomination, participant diploma" Petersburg. Key to future"<br><strong>2003&nbsp;</strong>Children Design Center - City contest of children arts Manege exibition, participant diploma "Youth to the city"<br></p>
-                        <h2 style="font-family: 'Brutal Type';">Educational projects:<br></h2>
-                        <p><strong>2012</strong> Envato Agent group<br><br><strong>2012 </strong>Sexual Education channel<br><br><strong>2009-2011 </strong>Stickers and Posters group participant<br><br><strong>2014-2017</strong> GothLab. Lettering &amp; Calligraphy Education channel<br></p>
-                        <figure class="figure"></figure>
+                        <div style="border-style: none;padding-top: 32px;">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Биография</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Образование</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">Клиенты</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-4">Дипломы</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" role="tabpanel" id="tab-1">
+                                    <p><br><strong>Медиа дизайнер</strong> со специализацией - леттеринг из России, г.Санкт-Петербург.<br><br>Автор графических наборов которые были скачены более 1М раз.<br>Участвовал в образовании движения плакатов и наклеек в Санкт-Петербурге с 2007 года. Помогал в развитии Санкт-Петербургской музыкальной андерграунд сцены с 2012-2016г. Основал образовательный канал о каллиграфии и леттеринге - <strong>GothLab</strong>., имеющий более <strong>900,000+</strong> просмотров и более 18 тысяч подписчиков, и более 11 тысяч студентов образовательного портала&nbsp;<strong>Udemy</strong>.<br><br>В настоящий момент разрабатывает наборы для графических и видео дизайнеров а так же выполняет художественные работы в стилях Киберпанк и Готика.<br><br><img class="img-fluid" src="assets/img/Untitled-1.png" width="641" height="75" style="margin-left: -20px;"><br><br><em>Корпоративные клиенты:</em><br>Nike ACG / SPIMUN / TOPHOUSE<br><br><em>Промоутеры / музыканты:</em><br>Ионотека / RSAC / Sonic Death / Shortparis / Vibe Room<em> (Yuzhin X)</em> / Электрофорез / Гарри Топор / da:da: / Poison Rock'n'roll Karaoke</p>
+                                    <h4>Навыки:</h4>
+                                    <div class="table-responsive">
+                                        <table class="table table-dark">
+                                            <thead>
+                                                <tr>
+                                                    <th>Шрифты</th>
+                                                    <th>Графика / Web</th>
+                                                    <th>Медиа</th>
+                                                    <th>Art</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Типографика</td>
+                                                    <td>Печатная графика</td>
+                                                    <td>Видео графика</td>
+                                                    <td>Оформление</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Леттеринг</td>
+                                                    <td>Векторная графика</td>
+                                                    <td>Видео монтаж</td>
+                                                    <td>Фотография</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Каллиграфия</td>
+                                                    <td>Web / UI / UX</td>
+                                                    <td>Видео оператор</td>
+                                                    <td>Фото ретушь</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3D Визуализация<br></td>
+                                                    <td>Brand ID / Разработка</td>
+                                                    <td>Аудио монтаж</td>
+                                                    <td>Оформление интерьера<br></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <h4>Владение программами:</h4>
+                                    <div class="table-responsive">
+                                        <table class="table table-dark">
+                                            <thead>
+                                                <tr>
+                                                    <th>Графика</th>
+                                                    <th>Видео / Аудио</th>
+                                                    <th>3D</th>
+                                                    <th>Web / Ui / Ux</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><span style="color: rgb(145, 230, 199);">5 </span>Photoshop</td>
+                                                    <td><span style="color: rgb(227, 80, 80);">3 </span>Davinci Resolve</td>
+                                                    <td><span style="color: rgb(227, 80, 80);">3 </span>Cinema 4D</td>
+                                                    <td>4 Bootstrap Studio</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4 Illustrator</td>
+                                                    <td>4 After Effects</td>
+                                                    <td>4 After Effects</td>
+                                                    <td><span style="color: rgb(227, 80, 80);">3 </span>Figma</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="color: rgb(227, 80, 80);">3</span> Figma</td>
+                                                    <td>4 Ableton</td>
+                                                    <td><span style="color: rgb(227, 80, 80);">2 </span>Blender</td>
+                                                    <td><span style="color: rgb(227, 80, 80);">3</span> JS / Jquery</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" role="tabpanel" id="tab-2">
+                                    <h2 style="font-family: 'Brutal Type';">Education</h2>
+                                    <p><strong>2015&nbsp;</strong>'Ot aza do ijhizi' English coursive extensive course&nbsp;<br><strong>2014</strong>&nbsp;Pokras Lamaps brushpen mastercalss<br><strong>2013&nbsp;</strong>Pokras Lampas Gothic calligraphy and Lettering of XXI Century masterclass<br><strong>2000-2009</strong>&nbsp;Saint Petersburg City Palace of Youth Creativity, Children Design Center<br></p>
+                                    <p></p>
+                                </div>
+                                <div class="tab-pane fade" role="tabpanel" id="tab-3">
+                                    <h2 style="font-family: 'Brutal Type';">Clients</h2>
+                                    <p><strong>Enterataimnet industry:</strong><br>Ionoteka / Ionosfear / Общество пропавших<br>Poison Bar<br>Three Happy Sisters <em>(SKAZKA Party)&nbsp;</em><br>Yuzhin X <em>(Vibe Room)</em><br>Agressive parties / Under.party / Light Party / Спальные районы / SHE Party&nbsp; / DM Club<br>Barbot&nbsp;<br>SPB ETU Music Festival / BOMBA rehearsal space<br>da:da: Underground<br>Agressive.ru&nbsp;<br><br><strong>Muscians:</strong><br><strong>Agressive MAG:&nbsp;</strong>&nbsp;Гарри Топор / Beat-Maker-Beat&nbsp;<br>Электрофорез&nbsp;<br>Shortparis&nbsp;<br>Спасибо&nbsp;<br>Игры&nbsp;<br>Арсений Креститель (Sonic Death)&nbsp;<br>Электроребята<br>More Znaet / Масло / Dj PonomarenKO / Bullet Dodger / Zodchi / The Stunts / The Fail / Norkus / Velvet Breasts /&nbsp;Robot Monsta /&nbsp;the Flash Fever<br><br><strong>Corporate:</strong><br>Agressive.ru mag: Nike Acg<br>Saint-Petersburg international model United Nations https://spimun.com/<br>TOPHOUSE https://www.tophouse.ru/<br>Konvera<br>Classic Stroy Design&nbsp;<br>Bulgarian House<br>Zona Space (Зона действия)<br></p>
+                                    <p></p>
+                                </div>
+                                <div class="tab-pane fade" role="tabpanel" id="tab-4">
+                                    <h2 style="font-family: 'Brutal Type';">Exibitions &amp; Participation:</h2>
+                                    <p><strong>2018</strong>&nbsp; Sticker Festival participant<br><strong>2009</strong>&nbsp;Contest winner, "Best Vectorisation", IMOP Contest<br><strong>2009&nbsp;</strong>Contest winner, "Best Graphic Composition", IMOP Contest<br><strong>2009&nbsp;</strong>Children Design Center - Compoisition of print media, Constructive drawing, Expressional elemnts of pictorial art. Participant diploma.<br><strong>2008</strong>&nbsp;Children Design Center - "New Year Giftcard", best project diploma<br><strong>2008&nbsp;</strong>Children Design Center - "Star of palace" award laureate.<br><strong>2007 </strong>Children Design Center - "From idea to realisation"<br><strong>2007 </strong>Children Design Center -&nbsp;Certificate of contest participant - "Me and my palace".<br><strong>2006&nbsp;</strong>Children Design Center - City contest, "New Year", Graphics nomination. Collectiove work participant. "Giftable Bookmarks"<br><strong>2006</strong>&nbsp;Children Design Center - participant diploma "Japan motives", Saint Petersburg Jeweller exibition<br><strong>2006</strong>&nbsp;Children Design Center - Best work diploma "Dimentional graphics"<br><strong>2005</strong>&nbsp;Children Design Center - Spanish Embassy exibition "La Torre", participant diploma<br><strong>2005</strong>&nbsp;Children Design Center - First grade, Participant diploma "Room of my dreams" contest, "Interior exposition" nomination<br><strong>2004</strong> Children Design Center - "Paper Plastic" nomination, participant diploma" Petersburg. Key to future"<br><strong>2003&nbsp;</strong>Children Design Center - City contest of children arts Manege exibition, participant diploma "Youth to the city"<br></p>
+                                </div>
+                                <div class="tab-pane fade" role="tabpanel" id="tab-5">
+                                    <h2 style="font-family: 'Brutal Type';">Educational projects:<br></h2>
+                                    <p><strong>2006</strong>&nbsp;MoR Digital Products / 1M+ Downloads&nbsp;<br><strong>2012</strong> Envato Agent group<strong>&nbsp;</strong><br><strong>2012 </strong>Sexual Education channel / 3K Subscribers<br><strong>2009-2011 </strong>Stickers and Posters group participant<br><strong>2014-2017</strong> GothLab. Lettering &amp; Calligraphy Education channel / 18K Subsctibers / 11.000+ Udemy Students / 900.000+ Views<br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 style="padding-top: 33px;">Примеры работ:</h1>
+                        <div>
+                            <h3><sub>01.</sub><sup> </sup>3D / Видео&nbsp;&nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-1" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Трехмерная графика, моушн дизайн и видео монтаж.</p><img class="img-fluid placer" src="assets/img/Portfolio/1%20Video/Neon%20Drive%20HD%205k.jpg" trigger="modal-1">
+                            <hr>
+                        </div>
+                        <div>
+                            <h3><sub>02. </sub>Бизнес графика&nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-2" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Корпоративная, печатная графика и презентации.</p><img class="img-fluid placer" src="assets/img/Portfolio/3%20Corporate/1.jpg" trigger="modal-2">
+                            <hr>
+                        </div>
+                        <div>
+                            <h3><sub>03. </sub>Brand ID&nbsp;&nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-3" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Разработка логотипов, фирменных стилей и брендированной продукции.</p><img class="img-fluid placer" src="assets/img/Portfolio/99%20Brand%20ID/19.png" trigger="modal-3">
+                            <hr>
+                        </div>
+                        <div>
+                            <h3><sub>04. </sub>WEB / UI / UX&nbsp; &nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-4" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Разработка и оформление сайтов, интерфейсов и WEB приложений и плагинов.</p><img class="img-fluid placer" src="assets/img/Portfolio/4%20WEB/2.png" trigger="modal-4">
+                            <hr>
+                        </div>
+                        <div>
+                            <h3><sub>05. </sub>Промо&nbsp; &nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-5" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Флаеры, плакаты и графика для музыкантов и музыкальных мероприятий.</p><img class="img-fluid placer" src="assets/img/Portfolio/5%20Promo/15.jpg" trigger="modal-5">
+                            <hr>
+                        </div>
+                        <div>
+                            <h3><sub>06. </sub>Леттеринг&nbsp; &nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-6" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Каллиграфия, леттеринг и типографика.</p><img class="img-fluid placer" src="assets/img/Portfolio/6%20Lettering/9.jpg" width="641" height="641" trigger="modal-6">
+                            <hr>
+                        </div>
+                        <div>
+                            <h3><sub>07.</sub>&nbsp;Декор&nbsp;&nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-7" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Оформление предметов и разработка внешнего вида изделий.</p><img class="img-fluid placer" src="assets/img/Portfolio/7%20Art/6.jpg" trigger="modal-7">
+                            <hr>
+                        </div>
+                        <div>
+                            <h3><sub>08. </sub>Оформление&nbsp;&nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-8" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Тематическое оформление клубов и вечеринок.</p><img class="img-fluid placer" src="assets/img/Portfolio/8%20Decorative/12.jpg" width="641" height="428" trigger="modal-8">
+                            <hr>
+                        </div>
+                        <div>
+                            <h3><sub>09. </sub>Цифровые товары&nbsp;&nbsp;<button class="btn btn-dark" type="button" data-bs-target="#modal-9" data-bs-toggle="modal">Все работы</button></h3>
+                            <p>Наборы графики для графических и моушн дизайнеров.</p><img class="img-fluid placer" src="assets/img/Portfolio/9%20Digital%20Products/1.jpg" trigger="modal-9">
+                            <hr>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/Lightbox-Gallery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
     <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/mixitup-multifilter.js"></script>
     <script src="assets/js/mx.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
-    <script src="assets/js/Simple-Slider.js"></script>
+    <script src="assets/js/portfolio_trigger.js"></script>
     <script src="assets/js/stopdrop.js"></script>
 </body>
 

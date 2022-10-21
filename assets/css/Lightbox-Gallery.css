@@ -1,6 +1,6 @@
 .photo-gallery {
   color: #313437;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .photo-gallery p {
@@ -72,5 +72,46 @@
 .tools .mix {
   width: 100%;
   display: table-row;
+}
+
+.modal {
+  --bs-modal-bg: #5e5e5e!important;
+}
+
+.btn-close {
+  color: grey!important;
+}
+
+.modal {
+  --bs-modal-color: #343434;
+}
+
+#baguetteBox-overlay .full-image figcaption {
+  font-family: 'Brutal Type'!important;
+}
+
+.modal p {
+  color: #b0b0b0;
+}
+
+hr {
+  /*padding-top: 24px;*/
+  padding-bottom: 25px;
+}
+
+iframe {
+  padding-top: 36px;
+}
+
+.placer {
+  cursor: pointer;
+}
+
+p {
+  user-select: none;
+}
+
+h1, h2, h3 {
+  user-select: none;
 }
 
