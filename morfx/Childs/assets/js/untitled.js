@@ -30,7 +30,7 @@ $('#tabs').find('Img').each(function(){
 
 var VAL = $(this).attr('src');
 var VAL2 = VAL.split('/');
-var VAL3 = VAL2[3];    
+var VAL3 = VAL2[4];    
 var VAL4 = VAL3.split('_');
 var VAL5 = VAL4[0]    
 $(this).attr('title',VAL5);                      
