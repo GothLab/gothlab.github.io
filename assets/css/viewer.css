@@ -1,0 +1,9 @@
+#viewer {
+  width: 100%;
+  height: 200px;
+  background: #d25858;
+  border-radius: 5px;
+  z-index: 1;
+  display: block;
+}
+

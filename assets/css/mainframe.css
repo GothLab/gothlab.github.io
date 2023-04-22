@@ -1,0 +1,34 @@
+#sub {
+  width: 35vw;
+  z-index: 1;
+  display: block;
+  height: 100vh;
+  background: black;
+  float: right;
+  position: fixed;
+  right: 0;
+}
+
+#main {
+  width: 100%;
+  /*align-self: center;*/
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
+  /*padding-top: 0!important;*/
+  padding: 0;
+  /*height: 100vh;*/
+  border-left: solid 1px #333231;
+  border-right: solid 1px #333231;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 0;
+  display: block;
+  background: #18120e;
+  /*left: 100px;*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
