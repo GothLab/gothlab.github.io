@@ -469,3 +469,7 @@ iframe {
   height: 50vh;
 }
 
+.container {
+  max-width: 100%!important;
+}
+
