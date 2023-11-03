@@ -2,7 +2,7 @@
 
             var mixer = mixitup(containerEl, {
                 multifilter: {
-                    enable: true
+                    enable: false
                 },
                
     "animation": {
