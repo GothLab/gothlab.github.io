@@ -26,5 +26,5 @@ $("#VFX-1").hide();
     };
 
     // Find all .card-title elements that contain the text "free" (case-insensitive) and add CSS
-    $('.card-title:containsIgnoreCase("free")').css('color', '#42bedf').text('Free');
+    $('.card-title:containsIgnoreCase("free")').css('color', '#42df98').text('Free');
   });

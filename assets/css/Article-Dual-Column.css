@@ -148,11 +148,82 @@
 
 #vfx .btn {
   background: #060606;
-  border-right: solid 3px rgba(61,61,61,0.54);
-  border: none;
+  border-right: dotted 1px rgba(99,99,99,0.54);
+  border-top: none;
+  /*border: none;*/
+  text-align: center;
 }
 
 #social .btn {
   background: transparent!important;
+}
+
+.card-body {
+  outline: none!important;
+  border: none!important;
+  border-top-left-radius: 8px;
+  background: rgb(24,24,24)!important;
+  border-top-right-radius: 8px;
+}
+
+:root {
+  --bs-cyan: #383838!important;
+}
+
+html .card .btn {
+  background: red;
+}
+
+html body .mix .btn {
+  background: red;
+}
+
+.mix .btn {
+  background: #272727!important;
+}
+
+.card-body:hover {
+  background: white;
+}
+
+.card-title {
+  user-select: none;
+}
+
+:root {
+  --bs-white: #8f8f8f;
+}
+
+div {
+}
+
+#gnav .container-fluid {
+  /*flex-direction: column;*/
+}
+
+.photos .item .d-block:hover {
+  opacity: 100%;
+  /*filter: grayscale(0);*/
+}
+
+#filter .nav-item {
+  border-bottom: dotted 1px #363636;
+  font-size: 12px;
+}
+
+#filter a {
+  color: #838383;
+}
+
+#vfx .active {
+  background: #1a1a1a;
+}
+
+h4 {
+  font-family: 'Inter Tight';
+}
+
+#vfx .btn {
+  font-family: 'Inter'!important;
 }
 

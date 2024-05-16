@@ -245,7 +245,7 @@ button, select {
 
 .navbar {
   position: relative;
-  border-bottom: dotted 1px #3d3d3d;
+  border-bottom: dotted 1px rgba(255,255,255,0.19);
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -451,8 +451,8 @@ button, select {
 @media (prefers-color-scheme:dark) {
   .btn-primary:hover {
     color: #fafafa;
-    background-color: #2f4d6c;
-    border-color: #2c4866;
+    background-color: #737373;
+    border-color: #6f6f6f;
   }
 }
 
@@ -565,6 +565,6 @@ div {
 }
 
 .navbar a:hover {
-  background: #212121;
+  /*background: #212121;*/
 }
 

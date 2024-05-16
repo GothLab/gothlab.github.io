@@ -312,5 +312,8 @@ d-block {
 
 .photos .item .d-block {
   height: 200px!important;
+  border-radius: 6px;
+  /*filter: grayscale(80%);*/
+  opacity: 90%;
 }
 

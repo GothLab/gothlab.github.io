@@ -30,7 +30,7 @@
 #navbar {
   margin: 12px;
   margin-top: 0px;
-  border-bottom: solid 1px rgba(140,129,118,0.29);
+  /*border-bottom: solid 1px rgba(140,129,118,0.88);*/
   margin-left: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -43,10 +43,12 @@
 
 #navbar .btn {
   font-family: 'Brutal Type';
-  font-size: 13px;
+  font-size: 10px;
   letter-spacing: 1px;
-  border-right: solid 3px rgba(61,61,61,0.54);
+  /*border-right: solid 1px white!important;*/
+  border-bottom: dotted 1px rgba(61,61,61,0.54);
   color: #bfb8ab;
+  border-radius: 0;
   text-transform: uppercase;
 }
 
