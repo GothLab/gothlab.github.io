@@ -161,9 +161,14 @@
 .card-body {
   outline: none!important;
   border: none!important;
-  border-top-left-radius: 8px;
+  /*box-shadow: 4px 5px 0px 0px;*/
+  padding-bottom: 1px!important;
+  /*border-top-left-radius: 8px;*/
+  /*box-shadow: 4px 4px 13px 1px;*/
+  border-radius: 8px!important;
+  /*box-shadow: #ffffff;*/
   background: rgb(24,24,24)!important;
-  border-top-right-radius: 8px;
+  /*border-top-right-radius: 8px;*/
 }
 
 :root {
@@ -188,6 +193,8 @@ html body .mix .btn {
 
 .card-title {
   user-select: none;
+  font-weight: 600;
+  font-size: 12px!important;
 }
 
 :root {
@@ -225,5 +232,33 @@ h4 {
 
 #vfx .btn {
   font-family: 'Inter'!important;
+}
+
+#mixer .btn {
+  display: none;
+}
+
+.card-body {
+  background: transparent!important;
+  width: 152px;
+  /*height: 120px;*/
+}
+
+div {
+}
+
+#products .row {
+  width: 100%;
+  overflow-x: visible;
+  display: flex;
+}
+
+.desc {
+  display: block;
+  font-weight: 100;
+  text-transform: initial;
+  font-size: 10px;
+  color: grey;
+  letter-spacing: 1px;
 }
 

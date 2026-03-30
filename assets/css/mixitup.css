@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background: #f2f2f2;
+  background: #212121;
 }
 
 *, *:before, *:after {
@@ -297,9 +297,9 @@ html, body {
 }
 
 .card {
-  width: 200px;
+  width: 165px!important;
   /*height: 240px;*/
-  margin: 10px;
+  /*margin: 10px;*/
 }
 
 .link {
@@ -311,7 +311,7 @@ d-block {
 }
 
 .photos .item .d-block {
-  height: 200px!important;
+  height: 91px!important;
   border-radius: 6px;
   /*filter: grayscale(80%);*/
   opacity: 90%;

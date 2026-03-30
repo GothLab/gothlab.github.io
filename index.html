@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en" style="background: #060606;">
+<html data-bs-theme="dark" lang="en" style="background: #060606;">
 
 <head>
     <meta charset="utf-8">
@@ -7,12 +7,14 @@
     <title>GothLab.</title>
     <meta name="description" content="Lettering and Design resource">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap">
     <link rel="stylesheet" href="assets/css/Brutal%20Type.css">
     <link rel="stylesheet" href="assets/css/diablo.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora&amp;display=swap">
     <link rel="stylesheet" href="assets/css/Old%20Fenris.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
     <link rel="stylesheet" href="assets/css/GOTHLAB-BUTTONS.css">
     <link rel="stylesheet" href="assets/css/GOTHLAB-NAV.css">
@@ -24,410 +26,515 @@
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/swiper.css">
+    <link rel="stylesheet" href="assets/css/test.css">
 </head>
 
-<body style="background: #060606;overflow-x: hidden;">
+<body style="background: #060606;overflow-x: hidden;font-family: 'Brutal Type';">
     <nav class="navbar navbar-expand flex-row py-3 navbar-light" style="margin: 0;padding: 0;z-index: 2;background: #000000;border-bottom-width: 0px;border-bottom-color: rgb(28,28,28);">
-        <div class="container-fluid" id="gnav" style="flex-direction: row;"><a class="navbar-brand d-flex align-items-center" href="#" style="padding: 0;margin: 0;margin-right: 12px;user-select: none!important;"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="user-select: none;"><img src="assets/img/logo/16.png" style="margin-left: -29px;"></span><span style="font-size: 12px;font-family: 'Brutal Type';margin-left: -24px;color: rgba(250,250,250,0.23);">GothLab.</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid" id="gnav" style="flex-direction: row;"><a class="navbar-brand d-flex align-items-center" href="#" style="padding: 0;margin: 0;margin-right: 12px;user-select: none!important;"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon" style="user-select: none;"><img src="assets/img/logo/16.png" style="margin-left: -29px;"></span><span style="font-size: 12px;font-family: 'Brutal Type';margin-left: -24px;color: rgba(250,250,250,0.23);">GothLab.</span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse flex-row" id="navcol-1">
-                <div class="btn-group btn-group-sm d-inline-flex flex-row flex-grow-0 align-items-end align-content-end align-self-end justify-content-lg-end" role="group" id="social" style="/*padding-left: 9px;*//*padding-right: 9px;*/"><a class="btn btn-primary" role="button" style="color: #49A7EB;/*background: #49A7EB;*/" href="https://telegram.me/gothlab">Telegram</a><a class="btn btn-primary" role="button" style="color: #EB4949;/*background: #EB4949;*/" data-bs-target="#modal-1" data-bs-toggle="modal" href="https://www.youtube.com/@gothlab">Youtube</a><a class="btn btn-primary" role="button" style="/*background: #49eb76;*//*border-color: #49eb76;*/color: #496DEB;margin-right: 4px;" href="https://boosty.to/gothlab/donate" target="_blank">Donate</a><a class="btn btn-primary" role="button" style="/*background: #49eb76;*/color: #496DEB;margin-right: 4px;/*border-color: var(--bs-purple);*/" href="./cv.html" target="_blank">Portfolio</a></div>
+                <div class="btn-group btn-group-sm d-inline-flex flex-row flex-grow-0 align-items-end align-content-end align-self-end justify-content-lg-end" role="group" id="social" style="/*padding-left: 9px;*//*padding-right: 9px;*/"><a class="btn btn-primary" role="button" style="/*background: var(--bs-info)!important;*/" href="https://telegram.me/gothlab"><i class="fa fa-telegram"></i>&nbsp; Telegram</a><a class="btn btn-primary" role="button" style="color: #EB4949;/*background: #EB4949;*/" data-bs-target="#modal-1" data-bs-toggle="modal" href="https://www.youtube.com/@gothlab"><i class="fa fa-youtube-play"></i>&nbsp; Youtube</a><a class="btn btn-primary" role="button" style="/*background: #49eb76;*//*border-color: #49eb76;*/color: #496DEB;margin-right: 4px;" href="https://www.instagram.com/suma.noir/" target="_blank">Tattoo</a></div>
             </div>
         </div>
     </nav>
-    <div class="btn-toolbar" id="navbar">
-        <div class="btn-group d-inline-flex flex-row flex-grow-1 flex-shrink-1 flex-fill justify-content-start flex-wrap" role="group" id="vfx" style="/*font-family: 'Inter'!important;*/"><button class="btn btn-primary TRGR active" id="bpacks" type="button" targetz="packs" onclick="">PACKS</button><button class="btn btn-primary TRGR beffects" id="beffects" type="button" targetz="effects" style="/*font-family: 'Kis Text BT OSF Web';*/padding-left: 12px;" onclick="">FREE 1700+ Effects</button><a class="btn btn-primary TRGR" role="button" targetz="motion" href="https://videohive.net/user/mor/portfolio">MOTION</a><a class="btn btn-primary TRGR" role="button" id="bcourses" targetz="design" href="https://www.youtube.com/@gothlab" data-bs-target="https://www.youtube.com/@LearnCalligraphycom">LETTERING &amp; CALLIGRAPHY</a><a class="btn btn-primary TRGR" role="button" targetz="" href="https://aescripts.com/authors/f-l/gothlab/">PLUGINS</a></div>
+    <div><a class="btn btn-secondary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapse-1" href="#collapse-1" style="width: 100%;border-radius: 0px;border-top-width: 0px!important;border-bottom-style: dotted;border-bottom-color: rgba(143,143,143,0.16);">VFX PORT 1700+ EFFECTS&nbsp; &nbsp;<i class="fa fa-chevron-down"></i></a>
+        <div class="collapse" id="collapse-1">
+            <div class="ratio ratio-1x1" style="height: 500px;"><iframe src="https://gothlab.github.io/VFXPORT/"></iframe></div>
+        </div>
     </div>
-    <div id="rightside" style="width: 118.4px;height: 265px;position: fixed;left: 3%;border: 1px solid rgb(40,40,40);margin-right: 30px;margin-top: 323px;"><span class="text-uppercase" style="color: #cbcbcb;font-size: 8px;margin-left: 0px;text-align: center;background: rgba(229,23,23,0.37);padding: 3px;padding-left: 15px;padding-right: 7px;">Products Filter</span>
-        <ul class="nav nav-tabs flex-column" id="filter" style="/*color: white;*/font-family: 'Inter';">
-            <li class="nav-item" data-toggle=".free"><a class="nav-link" href="#" style="color: #42df98!important;border-top: 1px dotted var(--bs-body-bg);margin-bottom: 0px;">Free</a></li>
-            <li class="nav-item" data-toggle=".premium"><a class="nav-link" href="#" style="color: #a38b63;">Premium</a></li>
-            <li class="nav-item" data-toggle=".actions"><a class="nav-link" data-toggle=".action" href="#">Actions</a></li>
-            <li class="nav-item" data-toggle=".vector"><a class="nav-link" href="#">Vector</a></li>
-            <li class="nav-item" data-toggle=".psd"><a class="nav-link" href="#">PSD</a></li>
-            <li class="nav-item" data-toggle="fonts"></li>
-            <li class="nav-item" data-toggle=".bundle"><a class="nav-link" href="#">Bundles</a></li>
-            <li class="nav-item" data-toggle=".brushes"><a class="nav-link" href="#">Brushes</a></li>
-            <li class="nav-item" data-toggle=".book"></li>
-        </ul>
-    </div>
-    <div class="ratio ratio-16x9" id="VFX-1" style="margin-left: 120px;margin-right: 1px;width: 100%;margin-top: -37px;"><iframe src="https://gothlab.github.io/VFXPORT/" allowfullscreen=""></iframe></div>
-    <div class="container mixer" id="mixer" style="margin-right: 0;max-width: 100%;margin-left: 0;/*background: #000000;*/display: flex;flex-wrap: wrap;margin-top: 12px;padding-bottom: 62px;padding-left: 22%;padding-right: 15%;">
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/10.jpg&quot;) top / cover;"></a></div>
+    <main class="px-4 container-fluid main-content" style="padding-right: 0px!important;padding-left: 0px!important;">
+        <div class="row g-0" style="/*height: 500px!important;*/margin-left: 24px;margin-right: 11px;">
+            <div class="col d-flex h-100 flex-column p-0">
+                <div class="d-flex flex-column right-section-item h-60">
+                    <div class="text-white-50 overflow-x-hidden overflow-y-auto flex-grow-1 small">
+                        <div class="row row-cols-5 g-2">
+                            <div class="col-4">
+                                <div class="border-dark d-flex h-100 flex-column align-items-start p-1">
+                                    <div class="position-relative w-100 mb-1 image-container"><img class="w-100" src="assets/img/psd/10.jpg"><a class="stretched-link" href="https://gothlab.gumroad.com/l/jydgs"></a></div>
+                                    <div class="d-flex w-100 justify-content-between"><strong class="text-white small">91 Light Effects PSD</strong><span class="text-success" style="font-size:0.6rem;">FREE</span></div><span class="desc">Most popular Light Fx PSD file</span>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border-dark d-flex h-100 flex-column align-items-start p-1">
+                                    <div class="position-relative w-100 mb-1" id="image-container"><img class="w-100" src="assets/img/splash_2s_.png"><a class="stretched-link" href="https://aescripts.com/svg2ae/"></a></div>
+                                    <div class="d-flex w-100 justify-content-between"><strong class="text-white small">SVG2AE</strong><span class="text-success" style="font-size:0.6rem;">NYP</span></div><span class="desc">Import SVG&nbsp;files into AE</span>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border-dark d-flex h-100 flex-column align-items-start p-1">
+                                    <div class="position-relative w-100 mb-1 image-container"><a class="stretched-link" href="https://aescripts.com/imgpaster/"></a><img class="w-100" src="assets/img/splash_1_.png"></div>
+                                    <div class="d-flex w-100 justify-content-between"><strong class="text-white small">imgPaster</strong><span class="text-success" style="font-size:0.6rem;">NYP</span></div><span class="desc">Clipboard images into AE, PS</span>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border-dark d-flex h-100 flex-column align-items-start p-1">
+                                    <div class="position-relative w-100 mb-1 image-container"><a class="stretched-link" href="https://aescripts.com/gridgen/"></a><img class="w-100" src="assets/img/social_4.png"></div>
+                                    <div class="d-flex w-100 justify-content-between"><strong class="text-white small">GridGen</strong><span class="text-success" style="font-size:0.6rem;">120$</span></div><span class="desc">Grid Graphics Generator</span>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border-dark d-flex h-100 flex-column align-items-start p-1">
+                                    <div class="position-relative w-100 mb-1 image-container"><a class="stretched-link" href="https://aescripts.com/ae-3d-rig/"></a><img class="w-100" src="assets/img/2_27.png"></div>
+                                    <div class="d-flex w-100 justify-content-between"><strong class="text-white small">AE3DRIG</strong><span class="text-success" style="font-size:0.6rem;">NYP</span></div><span class="desc">6 Scripts for Better AE 3D Work</span>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="border-dark d-flex h-100 flex-column align-items-start p-1">
+                                    <div class="position-relative w-100 mb-1 image-container"><a class="stretched-link" href="https://elements.envato.com/70-clean-3d-text-titles-BZDZWNY"></a><img class="w-100" src="assets/img/preview.jpg"></div>
+                                    <div class="d-flex w-100 justify-content-between"><strong class="text-white small">30 Clean Text Styles</strong><span class="text-success" style="font-size:0.6rem;">$39.00</span></div><span class="desc">Basic and beautiful Text Animations</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">91 Light Effects PSD</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" xxx="https://www.dropbox.com/s/2rmrwbkorh0oc1n/light_effects_bundle_by_mrsuma-d7n091f%20%282%29.rar?dl=0" href="https://gothlab.gumroad.com/l/jydgs">Download</a>
+                <div class="border-secondary d-flex flex-column right-section-item h-40 border-top" style="padding-top: 23px;">
+                    <div class="overflow-x-hidden overflow-y-auto flex-grow-1 small">
+                        <div class="row g-3">
+                            <div class="col-4">
+                                <p class="text-uppercase text-white border-dark mb-1 small border-bottom">aescripts extensions<span class="desc">For After Effects and Adobe products</span></p>
+                                <ul class="list-unstyled">
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/splash_2s_.png" style="width:50px;height:28px;"><a class="text-white-50" href="https://aescripts.com/svg2ae/" style="font-size:0.7rem;">SVG2AE</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/social_4.png" style="width:50px;height:28px;"><a class="text-white-50" href="https://aescripts.com/gridgen/" style="font-size:0.7rem;">GridGen</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="https://aescripts.com/media/catalog/product/cache/71827bdbf68401caac80ba8bb4955ad4/p/r/prewi_1.png" style="width:50px;height:28px;" width="50" height="28"><a class="text-white-50" href="https://aescripts.com/moleculegen/" style="font-size:0.7rem;">MoleculeGen</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="https://aescripts.com/media/catalog/product/cache/71827bdbf68401caac80ba8bb4955ad4/p/r/prewi_1.png" style="width:50px;height:28px;"><a class="text-white-50" href="https://aescripts.com/uniport/" style="font-size:0.7rem;">UniPort</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="https://aescripts.com/media/catalog/product/cache/71827bdbf68401caac80ba8bb4955ad4/s/p/splash_4_.png" style="width:50px;height:28px;"><a class="text-white-50" href="https://aescripts.com/fontshaper/" style="font-size:0.7rem;">FontShaper</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/2_27.png" style="width:50px;height:28px;"><a class="text-white-50" href="https://aescripts.com/ae-3d-rig/" style="font-size:0.7rem;">AE3DRIG</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="https://aescripts.com/media/catalog/product/cache/71827bdbf68401caac80ba8bb4955ad4/p/r/preview_7.png" style="width:50px;height:28px;"><a class="text-white-50" href="https://aescripts.com/svg2premiere/" style="font-size:0.7rem;">SVG2Premiere</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="https://aescripts.com/media/catalog/product/cache/71827bdbf68401caac80ba8bb4955ad4/f/o/FontMixer_preview-RecoveredArtboard_1.jpg" style="width:50px;height:28px;"><a class="text-white-50" href="https://aescripts.com/fontmixer/" style="font-size:0.7rem;">FontMixer</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <p class="text-uppercase text-white border-dark mb-1 small border-bottom">VIDEOHIVE TEMPLATES<span class="desc">For After Effects</span></p>
+                                <ul class="list-unstyled">
+                                    <li class="category-list-item"><img class="me-2" src="https://s3.envato.com/files/430830219/preview.jpg" style="width:50px;height:28px;"><a class="text-white-50" href="https://videohive.net/item/70-clean-3d-text-titles/43113006" style="font-size:0.7rem;">70 Clean 3D Text titles</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="https://s3.envato.com/files/401257918/prview80.png" style="width:50px;height:28px;"><a class="text-white-50" href="https://videohive.net/item/80s-retro-titles-pro/38977448" style="font-size:0.7rem;">80s Retro Titles PRO</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="https://s3.envato.com/files/407752813/preview.png" style="width:50px;height:28px;"><a class="text-white-50" href="https://videohive.net/item/rotor-3d-kinetic-typography/39869096" style="font-size:0.7rem;">Rotor 3D Kinetic Typography</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-4">
+                                <p class="text-uppercase text-white border-dark mb-1 small border-bottom">LETTERING COURSES<span class="desc">Calligraphy &amp; Lettering guides</span></p>
+                                <ul class="list-unstyled">
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/hqdefault(7).jpg" style="width:50px;height:28px;"><a class="text-white-50" href="https://www.youtube.com/watch?v=s8I5Z_1D-jA&amp;list=PLvBVbSmBZUOu76WiKeEGTFa3REkPHV4dd" style="font-size:0.7rem;">Modern Gothic Calligraphy</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/hqdefault(6).jpg" style="width:50px;height:28px;"><a class="text-white-50" href="https://www.youtube.com/watch?v=tqNwZ3Z8KfQ&amp;list=PLvBVbSmBZUOsob3FLZ6_CBVEg6J4v98St" style="font-size:0.7rem;">Современная Готика</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/hqdefault(2).jpg" style="width:50px;height:28px;"><a class="text-white-50" href="https://www.youtube.com/watch?v=TQLkWkZZOPM&amp;list=PLvBVbSmBZUOvwl-0vYpGri4XpiwmE_pCV" style="font-size:0.7rem;">Darklettering Guide</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/hqdefault(4).jpg" style="width:50px;height:28px;"><a class="text-white-50" href="https://www.youtube.com/watch?v=ny_XiUO0PW0&amp;list=PLvBVbSmBZUOvgPaXpmmAYPGULKVrUbOs_&amp;pp=0gcJCbkEOCosWNin" style="font-size:0.7rem;">Calligraffiti</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/hqdefault(5).jpg" style="width:50px;height:28px;"><a class="text-white-50" href="https://www.youtube.com/watch?v=tuZvHbQAg5Q&amp;list=PLvBVbSmBZUOu_QDvmZ-KCzjgRpicZbISt" style="font-size:0.7rem;">Gothic Alphabet | Готический Алфавит</a></li>
+                                    <li class="category-list-item"><img class="me-2" src="assets/img/hqdefault(3).jpg" style="width:50px;height:28px;" width="50" height="28"><a class="text-white-50" href="https://www.youtube.com/watch?v=n0W6OrMtalI&amp;list=PLvBVbSmBZUOt6cNulAHlgsRdEUgKewFF0" style="font-size:0.7rem;">Gothic Futurism | Русские субтитры</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 5px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">7</span><a class="d-block shadow" href="assets/img/hudgen/Artboard%202%20copy.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/hudgen/Artboard%202%20copy.png&quot;) right / cover;/*box-shadow: inset 0px 0px 20px var(--bs-gray-900);*/"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%2013.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%203.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%205.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%206.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%207.png" style="width: 0px;height: 0px!important;"></a></div>
+    </main>
+    <div class="container-fluid mt-4 px-4" id="products">
+        <div class="row">
+            <div class="col">
+                <p class="text-uppercase fw-bold text-white border-secondary mb-2 pb-1 small border-bottom">Bundles</p>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;/*height: 200px;*/border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 5px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">7</span><a class="d-block shadow" href="assets/img/hudgen/Artboard%202%20copy.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/hudgen/Artboard%202%20copy.png&quot;) right / cover;/*box-shadow: inset 0px 0px 20px var(--bs-gray-900);*/"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%2013.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%203.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%205.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%206.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/hudgen/Artboard%203%20copy%207.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">HUD Circles Generator</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">20$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./6995873-HUD-Circle-Generator">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">HUD Circles Generator</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">20$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./6995873-HUD-Circle-Generator">Download</a>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;/*background: transparent!important;*/border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 5px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">12</span><a class="d-block shadow" href="assets/img/New%20Folder/Artboard%202%20copy.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/New%20Folder/Artboard%202%20copy.png&quot;) left / cover;/*box-shadow: inset 0px 0px 20px var(--bs-gray-900);*/"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%2010.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%2011.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%2012.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%2012.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%203.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%204.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%205.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%206.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%207.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%208.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%209.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">20 HUD Circles Pack</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">15$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./6975051-20-HUD-Circle-Pack">Download</a>
+                    </div>
+                </div>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 2px;padding-right: 5px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">13</span><a class="d-block shadow" href="assets/img/bundles/Artboard%202%20copy.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/Artboard%202%20copy.png&quot;) left / cover;/*box-shadow: inset 0px 0px 20px var(--bs-gray-900);*/"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%2010.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%2011.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%2012.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%202.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%203.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%204.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%205.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%206.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%207.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%208.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%209.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">15 Optical Flares Pack</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">15$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./6972113-15-Optical-Flares-Pack">Download</a>
+                    </div>
+                </div>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">9</span><a class="d-block shadow" href="assets/img/bundles/abstrac_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/abstrac_01.png&quot;) center / cover;/*box-shadow: inset 0px 0px 20px var(--bs-gray-900);*/"></a><a class="d-block" href="assets/img/bundles/abstrac_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/3.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Abstract Bundle</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">9$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./78869-abstract-1.0-Bundle">Download</a>
+                    </div>
+                </div>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(155,155,155);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="bundles/1_01.jpg" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/1_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="actions/1_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/1_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/1_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/1_05.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Big Bad Glitch</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">25$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/Blacklovefly/245956-Big-Bad-Glitch-Tools?u=GothLab.">Download</a>
+                    </div>
+                </div>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 5px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">12</span><a class="d-block shadow" href="assets/img/bundles/glitcha_11.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/glitcha_11.png&quot;) top / cover;"></a><a class="d-block" href="assets/img/bundles/glitcha_01.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_11.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/4.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Glitch Basic</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">9$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/Blacklovefly/245955-Glitch-Bundle-Basic?u=GothLab.">Download</a>
+                    </div>
+                </div>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 4px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">15</span><a class="d-block shadow" href="assets/img/bundles/7_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/7_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/bundles/7_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_11.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_12.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_13.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_14.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Graffiti Bundle</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">15$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./126002-Graffiti-Bundle">Download</a>
+                    </div>
+                </div>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="assets/img/bundles/5_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/5_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/bundles/5_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/5_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/5_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/5_05.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Glitch Ultimatum</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">40$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/Blacklovefly/245957-Glitch-Bundle-Ultimate?u=GothLab.">Download</a>
+                    </div>
+                </div>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 4px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">24</span><a class="d-block shadow" href="assets/img/bundles/6_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/6_01.png&quot;) top / cover;"></a><a class="d-block" href="assets/img/bundles/6_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_11.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_12.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_13.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_14.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_15.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_16.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_17.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_18.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_19.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_20.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_21.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_22.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Light Effects Bundle</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">14$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/light-effects-bundle-pro/9271483">Download</a>
+                    </div>
+                </div>
+                <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 4px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">25</span><a class="d-block shadow" href="assets/img/bundles/2_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/2_01.png&quot;) top / cover;"></a><a class="d-block" href="assets/img/bundles/2_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_11.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_12.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_13.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_14.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_15.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_16.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_17.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_18.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_19.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_20.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_21.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_22.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_23.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_24.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="bundles/2_2.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Watercolor Bundle</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">10$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./61490-Watercolor-Art-Bundle">Download</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 5px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">12</span><a class="d-block shadow" href="assets/img/New%20Folder/Artboard%202%20copy.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/New%20Folder/Artboard%202%20copy.png&quot;) left / cover;/*box-shadow: inset 0px 0px 20px var(--bs-gray-900);*/"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%2010.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%2011.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%2012.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%2012.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%203.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%204.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%205.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%206.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%207.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%208.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/New%20Folder/Artboard%203%20copy%209.png" style="width: 0px;height: 0px!important;"></a></div>
+        <div class="row">
+            <div class="col">
+                <p class="text-uppercase fw-bold text-white border-secondary mb-2 pb-1 small border-bottom">PSD</p>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;/*padding-bottom: 1px;*/border-color: var(--bs-gray);background: var(--bs-gray-dark);/*box-shadow: 0px 0px 4px 5px;*/">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/10.jpg&quot;) top / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;/*padding-bottom: 12px;*/margin-left: 9px;margin-top: 4px;/*font-weight: 700;*/border-color: var(--bs-white);color: var(--bs-white);">91 Light Effects PSD</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" xxx="https://www.dropbox.com/s/2rmrwbkorh0oc1n/light_effects_bundle_by_mrsuma-d7n091f%20%282%29.rar?dl=0" href="https://gothlab.gumroad.com/l/jydgs">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">20 HUD Circles Pack</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">15$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./6975051-20-HUD-Circle-Pack">Download</a>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/1.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">50 Elements Pack</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/eybhqh">Download</a>
+                    </div>
+                </div>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/2_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Wavering Girl</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/yulrb">Download</a>
+                    </div>
+                </div>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/7.png&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Product box psd</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/ykpmrv">Download</a>
+                    </div>
+                </div>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/11.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Jump color PSD</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/caqegd">Download</a>
+                    </div>
+                </div>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/12_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Flames pack</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/ligpq">Download</a>
+                    </div>
+                </div>
+                <div class="card psd mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/82_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">20 Digital Artworx</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">30$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/Blacklovefly/284484-20-PSD-CD-Artworks?u=GothLab.">Download</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 2px;padding-right: 5px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">13</span><a class="d-block shadow" href="assets/img/bundles/Artboard%202%20copy.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/Artboard%202%20copy.png&quot;) left / cover;/*box-shadow: inset 0px 0px 20px var(--bs-gray-900);*/"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%2010.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%2011.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%2012.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%202.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%203.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%204.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%205.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%206.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%207.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%208.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/Artboard%203%20copy%209.png" style="width: 0px;height: 0px!important;"></a></div>
+        <div class="row">
+            <div class="col">
+                <p class="text-uppercase fw-bold text-white border-secondary mb-2 pb-1 small border-bottom">Text Styles</p>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/3_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Viper text</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/swjbj">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">15 Optical Flares Pack</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">15$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./6972113-15-Optical-Flares-Pack">Download</a>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/4_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Vintage Golden text</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/pvvii">Download</a>
+                    </div>
+                </div>
+                <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/5_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Vintage Sign text</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/bjurc">Download</a>
+                    </div>
+                </div>
+                <div class="card psd mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/6_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">20 Vintage &amp; Modern</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/20-elegant-artworks-layer-styles/6474852">Download</a>
+                    </div>
+                </div>
+                <div class="card psd mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/92_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">18 Cool Text Pro</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/18-cool-pro-text-effects-psd/8111597">Download</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">9</span><a class="d-block shadow" href="assets/img/bundles/abstrac_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/abstrac_01.png&quot;) center / cover;/*box-shadow: inset 0px 0px 20px var(--bs-gray-900);*/"></a><a class="d-block" href="assets/img/bundles/abstrac_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/abstrac_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/3.jpg" style="width: 0px;height: 0px!important;"></a></div>
+        <div class="row">
+            <div class="col">
+                <p class="text-uppercase fw-bold text-white border-secondary mb-2 pb-1 small border-bottom">Actions</p>
+                <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="assets/img/actions/4_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/4_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/actions/4_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/4_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/4_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/4_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/4_06.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">32 Displace &amp; Distort</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/32-displace-distort-effect/4346413">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Abstract Bundle</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">9$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./78869-abstract-1.0-Bundle">Download</a>
+                <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/actions/4_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/1.jpg&quot;) top / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Thriller Action</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">2$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/professional-thriller-effect/4591205">Download</a>
+                    </div>
+                </div>
+                <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">3</span><a class="d-block shadow" href="assets/img/actions/2.jpg" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/2.jpg&quot;) center / cover;"></a><a class="d-block" href="actions/2_01.jpg" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/2_02.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Photo to Glitch Gif</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/photo2gif-glitch/11207530">Download</a>
+                    </div>
+                </div>
+                <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">7</span><a class="d-block shadow" href="assets/img/actions/3_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/3_01.png&quot;) top / cover;"></a><a class="d-block" href="assets/img/actions/3_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/3.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Glitch TV</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/glitch-tv-20-actions/7738623">Download</a>
+                    </div>
+                </div>
+                <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="actions/8_01.jpg" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/8_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/actions/8.jpg" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/8_02.jpg" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/8_03.jpg" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/8_04.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">32 Displace &amp; Distort</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">2$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/glitch-photo-23-actions/5092047">Download</a>
+                    </div>
+                </div>
+                <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="assets/img/actions/5_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/5_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/actions/5_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/5.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Photo to Poster colors</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/poster-actions/4423225">Download</a>
+                    </div>
+                </div>
+                <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">6</span><a class="d-block shadow" href="assets/img/actions/6_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/6_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/actions/6_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/6_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/6_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/6_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/6.png" style="width: 0px;height: 0px!important;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">RGB Effect</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/glitch-rgb-effect/7789550">Download</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(155,155,155);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="bundles/1_01.jpg" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/1_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="actions/1_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/1_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/1_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/1_05.png" style="width: 0px;height: 0px!important;"></a></div>
+        <div class="row">
+            <div class="col">
+                <p class="text-uppercase fw-bold text-white border-secondary mb-2 pb-1 small border-bottom">Brushes</p>
+                <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/1_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Watercolor brushes</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/pqwxap">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Big Bad Glitch</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">25$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/Blacklovefly/245956-Big-Bad-Glitch-Tools?u=GothLab.">Download</a>
+                <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/2_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Spray pain brushes</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/hgebw">Download</a>
+                    </div>
+                </div>
+                <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/3_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Crystal debris brushes</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/qzvdy">Download</a>
+                    </div>
+                </div>
+                <div class="card brushes mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/4.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Light FX brushes</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">6$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/82-light-effects/4175933">Download</a>
+                    </div>
+                </div>
+                <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/5.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Cocain letters brushes</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/trwlm">Download</a>
+                    </div>
+                </div>
+                <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/6_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Geomtery brushes</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/vllwn">Download</a>
+                    </div>
+                </div>
+                <div class="card brushes mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/7.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Glitch Brushes</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/32-glitch-art-brushes/6191472">Download</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 5px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">12</span><a class="d-block shadow" href="assets/img/bundles/glitcha_11.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/glitcha_11.png&quot;) top / cover;"></a><a class="d-block" href="assets/img/bundles/glitcha_01.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/glitcha_11.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/4.jpg" style="width: 0px;height: 0px!important;"></a></div>
+        <div class="row">
+            <div class="col">
+                <p class="text-uppercase fw-bold text-white border-secondary mb-2 pb-1 small border-bottom">Vector</p>
+                <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/1_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Suma'z Factory 1</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/opjpe">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Glitch Basic</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">9$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/Blacklovefly/245955-Glitch-Bundle-Basic?u=GothLab.">Download</a>
-            </div>
-        </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 4px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">15</span><a class="d-block shadow" href="assets/img/bundles/7_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/7_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/bundles/7_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_11.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_12.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_13.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7_14.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/7.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/2_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Hi tech pack</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/odobm">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Graffiti Bundle</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">15$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./126002-Graffiti-Bundle">Download</a>
-            </div>
-        </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="assets/img/bundles/5_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/5_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/bundles/5_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/5_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/5_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/5_05.png" style="width: 0px;height: 0px!important;"></a></div>
+                <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/3_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">icons &amp; pictograms</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/ylvbyp">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Glitch Ultimatum</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">40$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/Blacklovefly/245957-Glitch-Bundle-Ultimate?u=GothLab.">Download</a>
-            </div>
-        </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 4px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">24</span><a class="d-block shadow" href="assets/img/bundles/6_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/6_01.png&quot;) top / cover;"></a><a class="d-block" href="assets/img/bundles/6_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_11.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_12.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_13.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_14.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_15.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_16.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_17.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_18.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_19.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_20.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_21.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6_22.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/6.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/4_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Sticker pack</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/yusyk">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Light Effects Bundle</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">14$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/light-effects-bundle-pro/9271483">Download</a>
-            </div>
-        </div>
-        <div class="card bundle mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 4px;padding-right: 4px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">25</span><a class="d-block shadow" href="assets/img/bundles/2_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/bundles/2_01.png&quot;) top / cover;"></a><a class="d-block" href="assets/img/bundles/2_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_08.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_09.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_10.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_11.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_12.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_13.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_14.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_15.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_16.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_17.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_18.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_19.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_20.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_21.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_22.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_23.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/bundles/2_24.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="bundles/2_2.jpg" style="width: 0px;height: 0px!important;"></a></div>
+                <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/5_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Suma'z Factory 3</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/aljbz">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Watercolor Bundle</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">10$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/GothLab./61490-Watercolor-Art-Bundle">Download</a>
-            </div>
-        </div>
-        <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/1_tn.jpg&quot;) center / cover;"></a></div>
+                <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
+                    <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
+                        <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
+                            <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/6_tn.jpg&quot;) center / cover;"></a></div>
+                        </div>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Suma'z Factory 2</h4>
+                        <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/gcyod">Download</a>
+                    </div>
                 </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Suma'z Factory 1</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/opjpe">Download</a>
-            </div>
-        </div>
-        <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/2_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Hi tech pack</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/odobm">Download</a>
-            </div>
-        </div>
-        <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/3_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">icons &amp; pictograms</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/ylvbyp">Download</a>
-            </div>
-        </div>
-        <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/4_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Sticker pack</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/yusyk">Download</a>
-            </div>
-        </div>
-        <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/5_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Suma'z Factory 3</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/aljbz">Download</a>
-            </div>
-        </div>
-        <div class="card vector mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/vector/6_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Suma'z Factory 2</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/gcyod">Download</a>
-            </div>
-        </div>
-        <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/1_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Watercolor brushes</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/pqwxap">Download</a>
-            </div>
-        </div>
-        <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/2_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Spray pain brushes</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/hgebw">Download</a>
-            </div>
-        </div>
-        <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/3_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Crystal debris brushes</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/qzvdy">Download</a>
-            </div>
-        </div>
-        <div class="card brushes mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/4.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Light FX brushes</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">6$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/82-light-effects/4175933">Download</a>
-            </div>
-        </div>
-        <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/5.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Cocain letters brushes</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/trwlm">Download</a>
-            </div>
-        </div>
-        <div class="card brushes mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/6_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Geomtery brushes</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">Free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/vllwn">Download</a>
-            </div>
-        </div>
-        <div class="card brushes mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/brushes/7.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Glitch Brushes</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/32-glitch-art-brushes/6191472">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/1.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">50 Elements Pack</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/eybhqh">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/2_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Wavering Girl</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/yulrb">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/3_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Viper text</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/swjbj">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/4_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Vintage Golden text</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/pvvii">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/5_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Vintage Sign text</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/bjurc">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/6_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">20 Vintage &amp; Modern</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/20-elegant-artworks-layer-styles/6474852">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/7.png&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Product box psd</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/ykpmrv">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/11.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Jump color PSD</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/caqegd">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix free" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/12_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Flames pack</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">free</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://gothlab.gumroad.com/l/ligpq">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/92_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">18 Cool Text Pro</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/18-cool-pro-text-effects-psd/8111597">Download</a>
-            </div>
-        </div>
-        <div class="card psd mix premium" style="/*width: 300px;*//*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/vector/1_tn.jpg" style="height: 328px;background: url(&quot;assets/img/psd/82_tn.jpg&quot;) center / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">20 Digital Artworx</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">30$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://creativemarket.com/Blacklovefly/284484-20-PSD-CD-Artworks?u=GothLab.">Download</a>
-            </div>
-        </div>
-        <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="assets/img/actions/4_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/4_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/actions/4_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/4_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/4_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/4_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/4_06.png" style="width: 0px;height: 0px!important;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">32 Displace &amp; Distort</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/32-displace-distort-effect/4346413">Download</a>
-            </div>
-        </div>
-        <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><a class="d-block shadow" href="assets/img/actions/4_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/1.jpg&quot;) top / cover;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Thriller Action</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">2$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/professional-thriller-effect/4591205">Download</a>
-            </div>
-        </div>
-        <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">3</span><a class="d-block shadow" href="assets/img/actions/2.jpg" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/2.jpg&quot;) center / cover;"></a><a class="d-block" href="actions/2_01.jpg" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/2_02.jpg" style="width: 0px;height: 0px!important;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Photo to Glitch Gif</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/photo2gif-glitch/11207530">Download</a>
-            </div>
-        </div>
-        <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">7</span><a class="d-block shadow" href="assets/img/actions/3_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/3_01.png&quot;) top / cover;"></a><a class="d-block" href="assets/img/actions/3_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/3_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/3.png" style="width: 0px;height: 0px!important;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Glitch TV</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/glitch-tv-20-actions/7738623">Download</a>
-            </div>
-        </div>
-        <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="actions/8_01.jpg" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/8_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/actions/8.jpg" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/8_02.jpg" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/8_03.jpg" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/8_04.jpg" style="width: 0px;height: 0px!important;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">32 Displace &amp; Distort</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">2$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/glitch-photo-23-actions/5092047">Download</a>
-            </div>
-        </div>
-        <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">5</span><a class="d-block shadow" href="assets/img/actions/5_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/5_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/actions/5_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_06.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/5_07.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/5.png" style="width: 0px;height: 0px!important;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">Photo to Poster colors</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/poster-actions/4423225">Download</a>
-            </div>
-        </div>
-        <div class="card action mix premium" style="width: 200px;/*margin: 20px;*/border-radius: 0;border-width: 0px;background: transparent;">
-            <div class="card-body" style="padding: 0;border-bottom-left-radius: 12px;border-bottom-right-radius: 12px;border-color: var(--bs-gray);background: var(--bs-gray-dark);">
-                <div class="row photos" data-bss-baguettebox="" style="margin-right: 0;margin-left: 0;">
-                    <div class="col-sm-6 col-md-4 col-lg-3 item" style="padding: 5px;width: 100%;"><span style="display: block;z-index: 9;float: right;right: 10px;top: 10px;/*margin: 30%;*/font-size: 14px;padding-left: 7px;padding-right: 7px;position: absolute;user-select: none;border-radius: 50%;background: var(--bs-cyan);color: rgb(255,255,255);/*text-shadow: 1px 3px 14px rgb(11,10,10);*/margin-top: 0px;">6</span><a class="d-block shadow" href="assets/img/actions/6_01.png" style="/*height: 100px!Important;*/background: url(&quot;assets/img/actions/6_01_tn.jpg&quot;) center / cover;"></a><a class="d-block" href="assets/img/actions/6_02.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/6_03.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/6_04.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="assets/img/actions/6_05.png" style="width: 0px;height: 0px!important;"></a><a class="d-block" href="actions/6.png" style="width: 0px;height: 0px!important;"></a></div>
-                </div>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 9px;margin-top: 4px;border-color: var(--bs-white);color: var(--bs-white);">RGB Effect</h4>
-                <h4 class="card-title" style="font-size: 13.878px;margin-left: 0px;margin-top: -24px;text-align: right;color: var(--bs-secondary);margin-right: 11px;">4$</h4><a class="btn btn-primary" role="button" style="width: 100%;border-radius: 0;border-bottom-right-radius: 12px;border-bottom-left-radius: 12px;background: #1e2125;border-width: 0px;color: #444444;" href="https://graphicriver.net/item/glitch-rgb-effect/7789550">Download</a>
             </div>
         </div>
     </div>
@@ -441,6 +548,7 @@
     <script src="assets/js/mx.js"></script>
     <script src="assets/js/extra.js"></script>
     <script src="assets/js/portfolio_trigger.js"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://gumroad.com/js/gumroad.js"></script>
     <script src="assets/js/slider.js"></script>

@@ -28,3 +28,24 @@ $("#VFX-1").hide();
     // Find all .card-title elements that contain the text "free" (case-insensitive) and add CSS
     $('.card-title:containsIgnoreCase("free")').css('color', '#42df98').text('Free');
   });
+$('.card').each(function() {
+    let card = $(this);
+    let downloadBtn = card.find('a.btn.btn-primary');
+    let link = downloadBtn.attr('href');
+
+    // hide stuff
+    downloadBtn.hide();
+    card.find('span').hide();
+
+    // fully disable lightbox and link behavior
+    let photos = card.find('.photos a');
+    photos.removeAttr('data-bss-baguettebox href');
+    photos.css('pointer-events', 'none');
+
+    // single open on card click
+    card.off('click').on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        window.open(link, '_blank');
+    });
+});

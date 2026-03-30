@@ -1,0 +1,66 @@
+/* For the main product images */
+
+.image-container {
+  position: relative;
+  width: 100%;
+  /*16: 9 aspect ratio (100/56 ≈ 1.785);*/
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+}
+
+.image-container img {
+  width: 100%;
+  /*height: 100%;*/
+  object-fit: cover;
+  display: block;
+}
+
+.image-container .product-type-icon {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  z-index: 1;
+  background: transparent;
+}
+
+/* For the list item images */
+
+.category-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.category-list-item .list-image-container {
+  width: 50px;
+  height: 28px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin-right: 0.5rem;
+}
+
+.category-list-item .list-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.category-list-item a {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-white {
+  user-select: none;
+}
+
+.desc {
+  user-select: none;
+}
+
+.image-container span {
+  user-select: none;
+}
+
