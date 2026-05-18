@@ -1,3 +1,3 @@
 1.0
-29.67$ Konstantin K.
-15% New Update
+69.67$ Konstantin K.
+5% New Update
