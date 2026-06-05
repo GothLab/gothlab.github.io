@@ -1,3 +1,3 @@
 1.0
-69.67$ Konstantin K.
+59$ Zirui Gao
 7% New Update
