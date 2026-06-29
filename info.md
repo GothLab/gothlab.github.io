@@ -1,3 +1,3 @@
 1.0
-59$ kaas gratz
-15% New Update
+59$ Yoshito Kuwa
+25% New Update
