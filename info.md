@@ -1,3 +1,3 @@
 1.0
-59$ Edward Torres
-35% New Update
+59$ Yasuhiko Watanabe
+45% New Update
