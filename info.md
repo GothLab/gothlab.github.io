@@ -1,3 +1,3 @@
 1.0
 59$ William Meger
-45% New Update
+55% New Update
